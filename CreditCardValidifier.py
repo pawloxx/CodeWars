@@ -1,23 +1,3 @@
-"""
-
-Discover starts with 6011 and has 16 digits,
-AMEX starts with 34 or 37 and has 15 digits,
-Master Card starts with 51-55 and has 16 digits,
-VISA starts with 4 and has 13 or 16 digits.
-
-possible results | describe:
-
-Discover | Discover starts with 6011 and has 16 digits,
-AMEX | AMEX starts with 34 or 37 and has 15 digits,
-Master Card | Master Card starts with 51-55 and has 16 digits,
-VISA | VISA starts with 4 and has 13 or 16 digits.
-Invalid | others than above
-
-Discover - długość = 16
-print("Twój numer karty to :", len(num[:1]),"\nDługość", val)
-
-"""
-
 num = '1111'
 def credit(num):
     val = len(num)
@@ -38,4 +18,4 @@ def credit(num):
     else:
         return li[4]
 
-credit(num)
+print(credit(num))
