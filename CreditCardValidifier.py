@@ -4,7 +4,7 @@ def credit(num):
     number_length = len(number_as_string)
     providers_list = ['VISA', 'MasterCard', 'AMEX', 'Discover', 'Invalid']
     #print(number_as_string[0])
-    print(number_length)
+    #print(number_length)
     #print(number_as_string[]) in (51,55)
     #print((number_length == 13 or number_length == 16))
     #print(int("55") in (51, 55))
@@ -26,7 +26,7 @@ def credit(num):
     else:
         return providers_list[4]
 
-print(credit(4128374839283))
+#print(credit(4128374839283))
 
 """
 Test.assert_equals(credit(6011364837263748), "Discover")
