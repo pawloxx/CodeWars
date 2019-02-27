@@ -1,6 +1,6 @@
 # return masked string
 #input
-cc = str('asdasdasdasdsad')
+cc = 'asdasdasdasdsad'
 #masking function
 def maskify(cc):
     mask = '#'*(len(cc) - 4) + cc[-4:]
