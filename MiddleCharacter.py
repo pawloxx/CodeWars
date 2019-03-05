@@ -1,9 +1,11 @@
-#acd = input("podaj stringa: ")
 
 
-def middle(acd):
-    length = len(acd)
-    x = int(length / 2) + (length % 2) - 1
-    print(length)
-    return acd[x]
-print(middle("test"))
+def middle(r):
+    if len(r) == 0:
+        return ""
+    elif len(r) % 2 != 0:
+        return r[len(r)//2]
+    elif len(r) % 2 == 0:
+        return r[len(r)//2 - 1] + r[len(r)//2]
+
+print(middle("1234"))
