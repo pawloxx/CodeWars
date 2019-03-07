@@ -12,3 +12,9 @@ def get_sum(a, b):
 
 
 print(get_sum(0, -2))
+
+# better way
+def get_sum_better(a,b):
+    return sum(range(min(a,b), max(a,b)+1))
+
+print(get_sum_better(0, -2))
