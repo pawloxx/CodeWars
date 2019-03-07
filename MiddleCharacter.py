@@ -1,3 +1,4 @@
+#r = input("podaj stringa: ")
 
 
 def middle(r):
@@ -9,3 +10,5 @@ def middle(r):
         return r[len(r)//2 - 1] + r[len(r)//2]
 
 print(middle("1234"))
+
+
