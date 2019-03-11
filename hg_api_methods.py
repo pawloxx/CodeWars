@@ -5,6 +5,7 @@ hg = os.environ['hg']
 login = os.environ['login']
 password = os.environ['pass']
 
+
 def clients_list():
     get_clients = requests.get(hg+'clients', auth=(login, password))
     dzejson = get_clients.json()
